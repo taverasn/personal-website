@@ -1,4 +1,4 @@
-# Nicks Website - In Development
+# Nicks Website - Version 1.0
 
 ## Introduction
 
@@ -33,10 +33,14 @@
 
 ### Trello Board
 
-- 
+- https://trello.com/b/6oHHTADA/personal-website
 
 ### Visit Website
 
 - 
 
 ### Future Enhancements
+
+- About Me Section
+- Feedback, Contact, and Business Forms
+- Pages for Viewing my other Projects

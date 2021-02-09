@@ -16,12 +16,12 @@ const StyledPage = styled.main`
   }
 `;
 
-const HomePage = (props) => {
+const ContactPage = (props) => {
     return (
         <StyledPage>
-          <h1>HomePage</h1>
+          <h1>ContactPage</h1>
         </StyledPage>
     )
 }
 
-export default HomePage;
+export default ContactPage;

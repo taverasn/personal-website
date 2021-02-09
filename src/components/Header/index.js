@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 // React Components
 import { Link } from 'react-router-dom';
+import SideBar from '../SideBar';
 
 const StyledHeader = styled.header`
     display: flex;
@@ -10,6 +11,16 @@ const StyledHeader = styled.header`
     align-items: center;
     a {
         font-family: 'Pacifico', cursive;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+    }
+    a:hover {
+        color: white;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
     }
 `;
 
@@ -17,10 +28,25 @@ const Header = (props) => {
 
     return (
         <StyledHeader>
-            <nav>
-                <div class="nav-wrapper purple lighten-2">
-                    <a href="#" class="brand-logo left">Nicholas Taveras</a>
-                </div>
+            <nav className="nav-wrapper teal">
+                <ul>
+                    <div>
+                        <li>
+                            <Link to="/">Nicholas Taveras</Link>
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <Link to="/aboutme">About Me</Link>
+                        </li>
+                        <li>
+                            <Link to="/contact">Contact Info</Link>
+                        </li>
+                        <li>
+                            <Link to="/portfolio">Portfolio</Link>
+                        </li>
+                    </div>
+                </ul>
             </nav>
         </StyledHeader>
     );

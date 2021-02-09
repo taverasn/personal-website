@@ -35,8 +35,8 @@ const SideBarNav = styled.nav`
     display: flex;
     justify-content: center;
     position: fixed;
-    right: 0;
-    top: ${({ sidebar }) => (sidebar) ? '0' : '-100%'};
+    top: 0;
+    right: ${({ sidebar }) => (sidebar) ? '0' : '-100%'};
     transition: 350ms;
     z-index: 10;
 `;

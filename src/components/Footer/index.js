@@ -8,40 +8,44 @@ const StyledFooter = styled.footer`
     flex-direction: column;
     align-items: center;
     padding: 0;
-    h3 {
-        font-size: 20px;
-    }
+    height: 75px;
     section a {
-        color: white;
+        color: black;
     }
     i {
         font-size: 25px;
         margin: 10px 0 10px 5px;
     }
+    a:hover {
+        color: white;
+    }
+    p {
+        color: black;
+        text-align: center
+    }
 `;
 
 const Footer = (props) => {
     return (
-        <StyledFooter className="purple lighten-2">
-            <h3>Follow Me</h3>
+        <StyledFooter className="teal">
             <section>
                 <a href="https://www.linkedin.com/in/taverasn" target="_blank">
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="https://youtube.com/channel/UCvAs9pcnm_BfCuM0cG_7H3g" target="_blank">
-                    <i class="fab fa-youtube"></i>
+                    <i className="fab fa-youtube"></i>
                 </a>
                 <a href="https://twitter.com/TheGentlemen809" target="_blank">
-                    <i class="fab fa-twitter"></i>
+                    <i className="fab fa-twitter"></i>
                 </a>
                 <a href="https://www.instagram.com/tav809" target="_blank">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                 </a>
                 <a href="https://www.github.com/taverasn" target="_blank">
-                    <i class="fab fa-github"></i>
+                    <i className="fab fa-github"></i>
                 </a>
             </section>
-            <p>Copyright &copy; All rights reserved {new Date().getFullYear()} League Elite</p>
+            <p>Copyright &copy; All rights reserved {new Date().getFullYear()} Nicholas Taveras</p>
         </StyledFooter>
     );
 };

@@ -11,17 +11,18 @@ const StyledPage = styled.main`
   flex-direction: column;
   align-items: center;
   background-color: #232323;
+  color: black;
   h1 {
       color: black;
   }
 `;
 
-const HomePage = (props) => {
+const AboutMePage = (props) => {
     return (
         <StyledPage>
-          <h1>HomePage</h1>
+          <h1>AboutMePage</h1>
         </StyledPage>
     )
 }
 
-export default HomePage;
+export default AboutMePage;

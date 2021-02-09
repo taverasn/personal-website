@@ -16,12 +16,12 @@ const StyledPage = styled.main`
   }
 `;
 
-const HomePage = (props) => {
+const PortfolioPage = (props) => {
     return (
         <StyledPage>
-          <h1>HomePage</h1>
+          <h1>Projects</h1>
         </StyledPage>
     )
 }
 
-export default HomePage;
+export default PortfolioPage;

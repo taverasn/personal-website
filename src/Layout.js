@@ -75,12 +75,12 @@ function Layout() {
               />
             } />
             <Route exact path='/contact/feedback' render={props =>
-              <AboutMePage
+              <ContactPage
               {...props}
               />
             } />
             <Route exact path='/contact/business' render={props =>
-              <AboutMePage
+              <ContactPage
               {...props}
               />
             } />

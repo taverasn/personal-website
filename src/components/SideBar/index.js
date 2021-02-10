@@ -65,7 +65,7 @@ const SideBar = () => {
     return (
         <>
         <IconContext.Provider value={{ color: '#000' }}>
-            <StyledNav>
+            <StyledNav className="navbar-fixed">
                 <StyledLogo>
                         <Link to="/">Nicholas Taveras</Link>
                 </StyledLogo>

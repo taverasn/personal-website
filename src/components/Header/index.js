@@ -27,7 +27,7 @@ const StyledHeader = styled.header`
 const Header = (props) => {
 
     return (
-        <StyledHeader>
+        <StyledHeader className="navbar-fixed">
             <nav className="nav-wrapper teal">
                 <ul>
                     <div>

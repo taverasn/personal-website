@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 // Component Imports
-import { ProjectData } from "../../components/ProjectData";
+import { PortfolioData } from "../../components/PortfolioData";
 import Project from "../../components/Project";
 
 // Styled Components
@@ -23,7 +23,7 @@ const PortfolioPage = (props) => {
   return (
     <StyledPage>
       <div>
-        {ProjectData.map((item, idx) => {
+        {PortfolioData.map((item, idx) => {
           return <Project item={item} key={idx} />;
         })}
       </div>

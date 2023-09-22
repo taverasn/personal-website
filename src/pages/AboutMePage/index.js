@@ -13,7 +13,7 @@ const StyledPage = styled.main`
   flex-direction: column;
   align-items: center;
   background-color: #232323;
-  color: black;
+  color: #009688;
   p {
     margin: 10px 20% 5px;
     font-size: 20px;
@@ -27,7 +27,7 @@ const StyledMobilePage = styled.main`
   flex-direction: column;
   align-items: center;
   background-color: #232323;
-  color: black;
+  color: #009688;
   p {
     margin: 5px 20% 5px;
     font-size: 16px;

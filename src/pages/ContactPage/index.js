@@ -11,7 +11,7 @@ const StyledPage = styled.main`
   align-items: center;
   justify-content: center;
   background-color: #232323;
-  color: black;
+  color: #009688;
 `;
 
 const ContactPage = (props) => {

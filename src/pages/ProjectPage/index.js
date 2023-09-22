@@ -71,6 +71,7 @@ const ProjectPage = ({ item }) => {
           <a href={item.projectLink} target="_blank">
             <p>Checkout The Project</p>
           </a>
+          <hr />
           <img src={item.image1} alt="Main Project Photo" />
           <h2>Key Features</h2>
           <hr />

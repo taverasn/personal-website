@@ -7,12 +7,14 @@ import MediaQuery from "react-responsive";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SideBar from "./components/SideBar";
+import { PortfolioData } from "./components/PortfolioData";
 
 // page imports
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import AboutMePage from "./pages/AboutMePage";
+import ProjectPage from "./pages/ProjectPage";
 
 // React Imports
 import { Route, Switch, Redirect, withRouter } from "react-router-dom";
@@ -50,21 +52,17 @@ function Layout() {
             path="/portfolio"
             render={(props) => <PortfolioPage {...props} />}
           />
-          <Route
-            exact
-            path="/portfolio/thiefs-fortune"
-            render={(props) => <PortfolioPage {...props} />}
-          />
-          <Route
-            exact
-            path="/portfolio/descender"
-            render={(props) => <PortfolioPage {...props} />}
-          />
-          <Route
-            exact
-            path="/portfolio/psyche"
-            render={(props) => <PortfolioPage {...props} />}
-          />
+          {PortfolioData.map((item, idx) => {
+            return (
+              <Route
+                exact
+                path={item.path}
+                render={(props) => (
+                  <ProjectPage item={item} key={idx} {...props} />
+                )}
+              />
+            );
+          })}
           <Route
             exact
             path="/aboutme"

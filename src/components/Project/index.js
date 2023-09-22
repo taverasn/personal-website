@@ -7,7 +7,7 @@ const StyledDiv = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: #009688;
+  color: yellow;
   margin-bottom: 20px;
   img {
     height: 25%;
@@ -18,7 +18,7 @@ const StyledDiv = styled.div`
     margin: 5px 25% 5px;
   }
   hr {
-    background: #009688;
+    background: yellow;
     height: 1px;
     width: 50%;
   }
@@ -29,7 +29,7 @@ const StyledDiv = styled.div`
   }
   span {
     font-size: 200%;
-    color: #009688;
+    color: yellow;
     white-space: nowrap;
   }
 `;
@@ -38,7 +38,7 @@ const StyledMobileDiv = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: #009688;
+  color: yellow;
   margin-bottom: 20px;
   img {
     height: 50%;
@@ -49,7 +49,7 @@ const StyledMobileDiv = styled.div`
     margin: 5px 5px 5px;
   }
   hr {
-    background: #009688;
+    background: yellow;
     height: 1px;
     width: 95%;
   }
@@ -60,7 +60,7 @@ const StyledMobileDiv = styled.div`
   }
   span {
     font-size: 200%;
-    color: #009688;
+    color: yellow;
     white-space: nowrap;
   }
 `;
@@ -75,7 +75,7 @@ const Project = ({ item }) => {
             {item.title}
           </span>
           <Link to={item.path}>More Info</Link>
-          <hr className="nav-wrapper teal" />
+          <hr className="nav-wrapper yellow" />
           <img src={item.image1} alt="Main Project Photo" />
           <p>{item.description}</p>
         </StyledDiv>
@@ -87,7 +87,7 @@ const Project = ({ item }) => {
             {item.title}
           </span>
           <Link to={item.path}>More Info</Link>
-          <hr className="nav-wrapper teal" />
+          <hr className="nav-wrapper yellow" />
           <img src={item.image1} alt="Main Project Photo" />
           <p>{item.description}</p>
         </StyledMobileDiv>

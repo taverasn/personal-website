@@ -27,7 +27,7 @@ const StyledFooter = styled.footer`
 
 const Footer = (props) => {
   return (
-    <StyledFooter className="teal">
+    <StyledFooter className="yellow">
       <section>
         <a href="https://www.linkedin.com/in/taverasn" target="_blank">
           <i className="fab fa-linkedin"></i>

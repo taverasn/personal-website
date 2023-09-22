@@ -6,13 +6,13 @@ import MediaQuery from "react-responsive";
 
 // Styled Components
 const StyledPage = styled.main`
+  background-image: url("profile_Images/background.jpg");
   min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #232323;
-  color: #009688;
+  color: yellow;
   padding-top: 20px;
   padding-bottom: 20px;
   div {
@@ -21,7 +21,7 @@ const StyledPage = styled.main`
     margin: 5px 25% 5px;
   }
   hr {
-    background: #009688;
+    background: yellow;
     height: 1px;
     width: 50%;
   }
@@ -33,13 +33,13 @@ const StyledPage = styled.main`
 `;
 
 const StyledMobilePage = styled.main`
+  background-image: url("profile_Images/background.jpg");
   min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #232323;
-  color: #009688;
+  color: yellow;
   padding-top: 20px;
   padding-bottom: 20px;
   div {
@@ -48,7 +48,7 @@ const StyledMobilePage = styled.main`
     margin: 5px 5px 5px;
   }
   hr {
-    background: #009688;
+    background: yellow;
     height: 1px;
     width: 95%;
   }

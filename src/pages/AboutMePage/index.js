@@ -7,13 +7,13 @@ import AboutMeData from "../../components/AboutMeData";
 
 // Styled Components
 const StyledPage = styled.main`
+  background-image: url("profile_Images/background.jpg");
   min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #232323;
-  color: #009688;
+  color: yellow;
   p {
     margin: 10px 20% 5px;
     font-size: 20px;
@@ -23,7 +23,7 @@ const StyledPage = styled.main`
     margin-top: 10px;
     width: 167px;
     height: 200px;
-    background-color: #3498db;
+    background-color: yellow;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -38,13 +38,13 @@ const StyledPage = styled.main`
 `;
 
 const StyledMobilePage = styled.main`
+  background-image: url("profile_Images/background.jpg");
   min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #232323;
-  color: #009688;
+  color: yellow;
   p {
     margin: 5px 5px 5px;
     font-size: 16px;
@@ -54,7 +54,7 @@ const StyledMobilePage = styled.main`
 
     width: 168px;
     height: 200px;
-    background-color: #3498db;
+    background-color: yellow;
     border-radius: 50%;
     display: flex;
     justify-content: center;

@@ -5,13 +5,13 @@ import styled from "styled-components";
 
 // Styled Components
 const StyledPage = styled.main`
+  background-image: url("profile_Images/background.jpg");
   min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #232323;
-  color: #009688;
+  color: yellow;
   p {
     margin: 5px 10% 5px;
     text-align: center;

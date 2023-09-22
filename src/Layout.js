@@ -15,7 +15,7 @@ import ContactPage from "./pages/ContactPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import AboutMePage from "./pages/AboutMePage";
 import ProjectPage from "./pages/ProjectPage";
-
+import background from "./img/background.jpg";
 // React Imports
 import { Route, Switch, Redirect, withRouter } from "react-router-dom";
 import { useState, useEffect } from "react";
@@ -39,7 +39,7 @@ function Layout() {
       <MediaQuery maxDeviceWidth={692}>
         <SideBar />
       </MediaQuery>
-      <main>
+      <main style={{ backgroundImage: `url(${background})` }}>
         <Switch>
           <Route exact path="/" render={(props) => <HomePage {...props} />} />
           <Route

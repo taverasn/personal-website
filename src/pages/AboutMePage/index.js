@@ -7,7 +7,6 @@ import AboutMeData from "../../components/AboutMeData";
 
 // Styled Components
 const StyledPage = styled.main`
-  background-image: url("profile_Images/background.jpg");
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -38,7 +37,6 @@ const StyledPage = styled.main`
 `;
 
 const StyledMobilePage = styled.main`
-  background-image: url("profile_Images/background.jpg");
   min-height: 100vh;
   display: flex;
   justify-content: center;

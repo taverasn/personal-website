@@ -8,7 +8,6 @@ import Project from "../../components/Project";
 
 // Styled Components
 const StyledPage = styled.main`
-  background-image: url("profile_Images/background.jpg");
   min-height: 100vh;
   display: flex;
   justify-content: center;

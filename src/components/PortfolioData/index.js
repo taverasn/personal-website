@@ -71,59 +71,6 @@ export const PortfolioData = [
     ],
   },
   {
-    title: "Thiefs Fortune",
-    path: "/portfolio/thiefs-fortune",
-    projectLink: "https://github.com/taverasn/Thiefs-Fortune/tree/main",
-    icon: <GiIcons.GiPirateFlag />,
-    description:
-      "Thief's Fortune is an action-packed shooter and exploration game that thrusts players into the thrilling world of the Golden Age of Pirates. In this immersive gaming experience, you step into the worn boots of a down-on-his-luck sailor whose destiny takes a treacherous turn. Cursed by the Pirate Legend, you must embark on an epic journey to unravel the curse, find hidden treasures, and confront your ultimate nemesis.",
-    image1: "/ThiefsFortune_Promo/Shop.png",
-    keyFeatures: [
-      {
-        name: "Action-Packed Gameplay",
-        description:
-          "Engage in heart-pounding battles as you combat hordes of formidable enemies. Use your wits, weapons, and tactics to overcome challenging foes in epic showdowns.",
-      },
-      {
-        name: "High-Seas Adventure",
-        description:
-          "Take command of your own vessel and set sail across the vast and mysterious seas. Navigate through treacherous waters, explore hidden islands, and seek out coveted pirate loot.",
-      },
-      {
-        name: "Cursed Quest",
-        description:
-          "Embark on a gripping quest filled with twists and turns. Uncover the dark secrets of the Pirate Legend's curse and forge your own path to redemption.",
-      },
-    ],
-    contributions: [
-      {
-        name: "AI",
-        description:
-          "I implemented advanced AI behaviors, pathfinding algorithms, and combat tactics to create dynamic and engaging enemy encounters, ensuring that players face formidable adversaries.",
-      },
-      {
-        name: "Inventory",
-        description:
-          "I managed the game's inventory system, overseeing item spawning, implementing item effects, and streamlining item management. This added depth to the gameplay, allowing players to customize their experience",
-      },
-      {
-        name: "Weapon Design",
-        description:
-          "I designed and brought to life a diverse arsenal of weapons, including swords, pistols, and cannons, using Unity and C#. These realistic and meticulously crafted weapons enriched the player's combat experience.",
-      },
-      {
-        name: "Collaboration",
-        description:
-          "Collaboration was key to our success. I actively collaborated with the development team to ensure seamless and immersive gameplay, including the implementation of player abilities and environmental interactions.",
-      },
-      {
-        name: "Refinement",
-        description:
-          "Throughout the development process, I tirelessly iterated on game mechanics, ensuring that they were polished to perfection. This dedication resulted in a highly refined and engaging final product.",
-      },
-    ],
-  },
-  {
     title: "Descender",
     path: "/portfolio/descender",
     projectLink:
@@ -179,6 +126,59 @@ export const PortfolioData = [
         name: "Looping Game World Camera",
         description:
           "I implemented a looping game world camera, enhancing the player's navigation experience. This feature ensures a continuous and seamless gameplay environment, allowing players to focus on the action.",
+      },
+    ],
+  },
+  {
+    title: "Thiefs Fortune",
+    path: "/portfolio/thiefs-fortune",
+    projectLink: "https://github.com/taverasn/Thiefs-Fortune/tree/main",
+    icon: <GiIcons.GiPirateFlag />,
+    description:
+      "Thief's Fortune is an action-packed shooter and exploration game that thrusts players into the thrilling world of the Golden Age of Pirates. In this immersive gaming experience, you step into the worn boots of a down-on-his-luck sailor whose destiny takes a treacherous turn. Cursed by the Pirate Legend, you must embark on an epic journey to unravel the curse, find hidden treasures, and confront your ultimate nemesis.",
+    image1: "/ThiefsFortune_Promo/Shop.png",
+    keyFeatures: [
+      {
+        name: "Action-Packed Gameplay",
+        description:
+          "Engage in heart-pounding battles as you combat hordes of formidable enemies. Use your wits, weapons, and tactics to overcome challenging foes in epic showdowns.",
+      },
+      {
+        name: "High-Seas Adventure",
+        description:
+          "Take command of your own vessel and set sail across the vast and mysterious seas. Navigate through treacherous waters, explore hidden islands, and seek out coveted pirate loot.",
+      },
+      {
+        name: "Cursed Quest",
+        description:
+          "Embark on a gripping quest filled with twists and turns. Uncover the dark secrets of the Pirate Legend's curse and forge your own path to redemption.",
+      },
+    ],
+    contributions: [
+      {
+        name: "AI",
+        description:
+          "I implemented advanced AI behaviors, pathfinding algorithms, and combat tactics to create dynamic and engaging enemy encounters, ensuring that players face formidable adversaries.",
+      },
+      {
+        name: "Inventory",
+        description:
+          "I managed the game's inventory system, overseeing item spawning, implementing item effects, and streamlining item management. This added depth to the gameplay, allowing players to customize their experience",
+      },
+      {
+        name: "Weapon Design",
+        description:
+          "I designed and brought to life a diverse arsenal of weapons, including swords, pistols, and cannons, using Unity and C#. These realistic and meticulously crafted weapons enriched the player's combat experience.",
+      },
+      {
+        name: "Collaboration",
+        description:
+          "Collaboration was key to our success. I actively collaborated with the development team to ensure seamless and immersive gameplay, including the implementation of player abilities and environmental interactions.",
+      },
+      {
+        name: "Refinement",
+        description:
+          "Throughout the development process, I tirelessly iterated on game mechanics, ensuring that they were polished to perfection. This dedication resulted in a highly refined and engaging final product.",
       },
     ],
   },

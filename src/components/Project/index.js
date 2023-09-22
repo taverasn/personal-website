@@ -36,14 +36,11 @@ const StyledDiv = styled.div`
 const Project = ({ item }) => {
   return (
     <StyledDiv>
-      <Link to={item.path}>
-        <div>
-          <span>
-            {item.icon}
-            {item.title}
-          </span>
-        </div>
-      </Link>
+      <span>
+        {item.icon}
+        {item.title}
+      </span>
+      <Link to={item.path}>More Info</Link>
       <hr className="nav-wrapper teal" />
       <img src={item.image1} alt="Main Project Photo" />
       <p>{item.description}</p>

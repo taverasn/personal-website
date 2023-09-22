@@ -17,7 +17,7 @@ const StyledPage = styled.main`
 const HomePage = (props) => {
   return (
     <StyledPage>
-      <h2>Ready to Elevate Your Gaming Experience?</h2>
+      <h2>Ready to Elevate Your Game?</h2>
       <p>
         With a strong foundation in game development and a passion for creating
         immersive worlds, I'm ready to bring your gaming vision to life.

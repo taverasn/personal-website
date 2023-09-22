@@ -18,6 +18,23 @@ const StyledPage = styled.main`
     margin: 10px 20% 5px;
     font-size: 20px;
   }
+
+  .circle {
+    margin-top: 10px;
+    width: 167px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle img {
+    max-width: 100%; /* Adjust the size of the image as needed */
+    max-height: 100%; /* Adjust the size of the image as needed */
+    border-radius: 50%;
+  }
 `;
 
 const StyledMobilePage = styled.main`
@@ -32,6 +49,23 @@ const StyledMobilePage = styled.main`
     margin: 5px 20% 5px;
     font-size: 16px;
   }
+  .circle {
+    margin-top: 10px;
+
+    width: 168px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle img {
+    max-width: 100%; /* Adjust the size of the image as needed */
+    max-height: 100%; /* Adjust the size of the image as needed */
+    border-radius: 50%;
+  }
 `;
 
 const AboutMePage = (props) => {
@@ -39,11 +73,17 @@ const AboutMePage = (props) => {
     <main>
       <MediaQuery minDeviceWidth={693}>
         <StyledPage>
+          <div class="circle">
+            <img src="/profile_Images/portfolioPic.png" alt="Centered Image" />
+          </div>
           <AboutMeData />
         </StyledPage>
       </MediaQuery>
       <MediaQuery maxDeviceWidth={692}>
         <StyledMobilePage>
+          <div class="circle">
+            <img src="/profile_Images/portfolioPic.png" alt="Centered Image" />
+          </div>
           <AboutMeData />
         </StyledMobilePage>
       </MediaQuery>

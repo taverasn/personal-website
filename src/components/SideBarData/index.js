@@ -33,7 +33,7 @@ export const SideBarData = [
   {
     title: "About Me",
     path: "/aboutme",
-    icon: <AiIcons.AiFillPhone />,
+    icon: <GiIcons.GiBookCover />,
   },
   {
     title: "Contact Info",

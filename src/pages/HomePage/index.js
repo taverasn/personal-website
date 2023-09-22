@@ -12,6 +12,9 @@ const StyledPage = styled.main`
   align-items: center;
   background-color: #232323;
   color: #009688;
+  p {
+    margin: 5px 10% 5px;
+  }
 `;
 
 const HomePage = (props) => {

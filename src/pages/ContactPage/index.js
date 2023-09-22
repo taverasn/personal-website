@@ -9,9 +9,9 @@ const StyledPage = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: #232323;
   color: black;
-  padding-top: 10px;
 `;
 
 const ContactPage = (props) => {

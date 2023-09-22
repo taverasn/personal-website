@@ -1,7 +1,10 @@
 // Styling Imports
-import styled from 'styled-components';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 // Component Imports
+import { ProjectData } from "../../components/ProjectData";
+import Project from "../../components/Project";
 
 // Styled Components
 const StyledPage = styled.main`
@@ -12,16 +15,20 @@ const StyledPage = styled.main`
   align-items: center;
   background-color: #232323;
   h1 {
-      color: black;
+    color: black;
   }
 `;
 
 const PortfolioPage = (props) => {
-    return (
-        <StyledPage>
-          <h1>Projects</h1>
-        </StyledPage>
-    )
-}
+  return (
+    <StyledPage>
+      <div>
+        {ProjectData.map((item, idx) => {
+          return <Project item={item} key={idx} />;
+        })}
+      </div>
+    </StyledPage>
+  );
+};
 
 export default PortfolioPage;

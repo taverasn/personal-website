@@ -3,6 +3,7 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 import * as RiIcons from "react-icons/ri";
+import * as GiIcons from "react-icons/gi";
 
 export const SideBarData = [
   {
@@ -13,19 +14,19 @@ export const SideBarData = [
     iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
       {
-        title: "League Elite",
-        path: "/portfolio/league-elite",
-        icon: <AiIcons.AiFillFile />,
+        title: "Thiefs Fortune",
+        path: "/portfolio/thiefs-fortune",
+        icon: <GiIcons.GiPirateFlag />,
       },
       {
-        title: "Diet Tracker",
-        path: "/portfolio/diet-tracker",
-        icon: <AiIcons.AiFillFile />,
+        title: "Descender",
+        path: "/portfolio/descender",
+        icon: <GiIcons.GiSpaceship />,
       },
       {
-        title: "Marvel Selector",
-        path: "/portfolio/marvel-character-selector",
-        icon: <AiIcons.AiFillFile />,
+        title: "Psyche",
+        path: "/portfolio/psyche",
+        icon: <GiIcons.GiBrain />,
       },
     ],
   },

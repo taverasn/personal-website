@@ -52,17 +52,17 @@ function Layout() {
           />
           <Route
             exact
-            path="/portfolio/marvel-character-selector"
+            path="/portfolio/thiefs-fortune"
             render={(props) => <PortfolioPage {...props} />}
           />
           <Route
             exact
-            path="/portfolio/diet-tracker"
+            path="/portfolio/descender"
             render={(props) => <PortfolioPage {...props} />}
           />
           <Route
             exact
-            path="/portfolio/league-elite"
+            path="/portfolio/psyche"
             render={(props) => <PortfolioPage {...props} />}
           />
           <Route

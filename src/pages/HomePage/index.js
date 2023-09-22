@@ -11,7 +11,7 @@ const StyledPage = styled.main`
   flex-direction: column;
   align-items: center;
   background-color: #232323;
-  color: black;
+  color: #009688;
 `;
 
 const HomePage = (props) => {

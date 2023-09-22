@@ -14,6 +14,7 @@ const StyledPage = styled.main`
   color: #009688;
   p {
     margin: 5px 10% 5px;
+    text-align: center;
   }
 `;
 

@@ -46,7 +46,7 @@ const StyledMobilePage = styled.main`
   background-color: #232323;
   color: #009688;
   p {
-    margin: 5px 20% 5px;
+    margin: 5px 5px 5px;
     font-size: 16px;
   }
   .circle {

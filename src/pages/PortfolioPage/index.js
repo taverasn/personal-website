@@ -22,11 +22,9 @@ const StyledPage = styled.main`
 const PortfolioPage = (props) => {
   return (
     <StyledPage>
-      <div>
-        {PortfolioData.map((item, idx) => {
-          return <Project item={item} key={idx} />;
-        })}
-      </div>
+      {PortfolioData.map((item, idx) => {
+        return <Project item={item} key={idx} />;
+      })}
     </StyledPage>
   );
 };

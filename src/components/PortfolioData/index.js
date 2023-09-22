@@ -2,6 +2,75 @@ import React from "react";
 import * as GiIcons from "react-icons/gi";
 export const PortfolioData = [
   {
+    title: "Psyche",
+    path: "/portfolio/psyche",
+    projectLink:
+      "https://drive.google.com/file/d/14MXza5Jd-wwj7SGr92g8MIhaop4PKpcU/view?usp=sharing",
+    icon: <GiIcons.GiBrain />,
+    description:
+      "Psyche invites players into a dark and mysterious world, blending the elements of a Souls-like Action Role-Playing Game (ARPG) with an emotionally charged narrative. As the protagonist, you find yourself on an extraordinary quest: to journey deep into the psyche of your loved one, trapped in a coma. Along the way, you'll encounter epic boss battles, wield dynamic class-swapping abilities in combat, uncover hidden secrets, and immerse yourself in a captivating story.",
+    image1: "/Psyche_Images/psyche_gameplay.png",
+    keyFeatures: [
+      {
+        name: "Epic Boss Fights",
+        description:
+          "Confront formidable adversaries in epic boss battles that will test your skills, strategy, and determination. Each boss encounter is a unique and intense challenge.",
+      },
+      {
+        name: "Dynamic Class Swaps",
+        description:
+          "Adapt to any situation with the ability to dynamically swap character classes during combat. Customize your playstyle on the fly and discover new strategies to overcome your foes.",
+      },
+      {
+        name: "Mysteries Await",
+        description:
+          "Explore the psyche's depths to uncover secret passages and hidden mysteries. Unearth the truth about your loved one's condition and confront the enigmatic forces that bind you.",
+      },
+      {
+        name: "Immersive Storytelling",
+        description:
+          "Immerse yourself in a deeply emotional narrative as you navigate the complexities of the human mind. The game's storytelling will keep you engaged from start to finish.",
+      },
+    ],
+    contributions: [
+      {
+        name: "Robust Save and Load System",
+        description:
+          "I implemented a robust save and load system, allowing players to effortlessly save their progress and resume their journey at any point. This feature enhances player convenience and engagement.",
+      },
+      {
+        name: "User-Friendly Pause Menu",
+        description:
+          " I designed a user-friendly pause menu, providing players with options to adjust sound, video, and control settings on the fly. This ensures players have control over their gaming experience.",
+      },
+      {
+        name: "Comprehensive Player Menu",
+        description:
+          "I created a comprehensive player menu that includes class selection, achievements, memories, and a quest journal. This menu serves as a valuable resource for players, enhancing their understanding of the game world.",
+      },
+      {
+        name: "HUD Design",
+        description:
+          "I designed and implemented a Heads-Up Display (HUD) that displays essential information such as health, stamina, and player abilities, allowing players to stay informed during intense combat scenarios.",
+      },
+      {
+        name: "Class Swap Wheel UI",
+        description:
+          "I developed a Class Swap Wheel UI that enables players to dynamically switch character classes during combat. This feature adds depth and adaptability to gameplay.",
+      },
+      {
+        name: "Adaptive Audio Integration",
+        description:
+          " I seamlessly integrated FMOD Studio into the project, enhancing the game with adaptive audio, further immersing players in the game's atmosphere.",
+      },
+      {
+        name: "Visually Appealing UI:",
+        description:
+          "Utilizing Unity, I designed visually appealing and intuitive user interfaces for both the player menu and pause menu, enhancing the overall user experience.",
+      },
+    ],
+  },
+  {
     title: "Thiefs Fortune",
     path: "/portfolio/thiefs-fortune",
     projectLink: "https://github.com/taverasn/Thiefs-Fortune/tree/main",
@@ -110,75 +179,6 @@ export const PortfolioData = [
         name: "Looping Game World Camera",
         description:
           "I implemented a looping game world camera, enhancing the player's navigation experience. This feature ensures a continuous and seamless gameplay environment, allowing players to focus on the action.",
-      },
-    ],
-  },
-  {
-    title: "Psyche",
-    path: "/portfolio/psyche",
-    projectLink:
-      "https://drive.google.com/file/d/14MXza5Jd-wwj7SGr92g8MIhaop4PKpcU/view?usp=sharing",
-    icon: <GiIcons.GiBrain />,
-    description:
-      "Psyche invites players into a dark and mysterious world, blending the elements of a Souls-like Action Role-Playing Game (ARPG) with an emotionally charged narrative. As the protagonist, you find yourself on an extraordinary quest: to journey deep into the psyche of your loved one, trapped in a coma. Along the way, you'll encounter epic boss battles, wield dynamic class-swapping abilities in combat, uncover hidden secrets, and immerse yourself in a captivating story.",
-    image1: "/Psyche_Images/psyche_gameplay.png",
-    keyFeatures: [
-      {
-        name: "Epic Boss Fights",
-        description:
-          "Confront formidable adversaries in epic boss battles that will test your skills, strategy, and determination. Each boss encounter is a unique and intense challenge.",
-      },
-      {
-        name: "Dynamic Class Swaps",
-        description:
-          "Adapt to any situation with the ability to dynamically swap character classes during combat. Customize your playstyle on the fly and discover new strategies to overcome your foes.",
-      },
-      {
-        name: "Mysteries Await",
-        description:
-          "Explore the psyche's depths to uncover secret passages and hidden mysteries. Unearth the truth about your loved one's condition and confront the enigmatic forces that bind you.",
-      },
-      {
-        name: "Immersive Storytelling",
-        description:
-          "Immerse yourself in a deeply emotional narrative as you navigate the complexities of the human mind. The game's storytelling will keep you engaged from start to finish.",
-      },
-    ],
-    contributions: [
-      {
-        name: "Robust Save and Load System",
-        description:
-          "I implemented a robust save and load system, allowing players to effortlessly save their progress and resume their journey at any point. This feature enhances player convenience and engagement.",
-      },
-      {
-        name: "User-Friendly Pause Menu",
-        description:
-          " I designed a user-friendly pause menu, providing players with options to adjust sound, video, and control settings on the fly. This ensures players have control over their gaming experience.",
-      },
-      {
-        name: "Comprehensive Player Menu",
-        description:
-          "I created a comprehensive player menu that includes class selection, achievements, memories, and a quest journal. This menu serves as a valuable resource for players, enhancing their understanding of the game world.",
-      },
-      {
-        name: "HUD Design",
-        description:
-          "I designed and implemented a Heads-Up Display (HUD) that displays essential information such as health, stamina, and player abilities, allowing players to stay informed during intense combat scenarios.",
-      },
-      {
-        name: "Class Swap Wheel UI",
-        description:
-          "I developed a Class Swap Wheel UI that enables players to dynamically switch character classes during combat. This feature adds depth and adaptability to gameplay.",
-      },
-      {
-        name: "Adaptive Audio Integration",
-        description:
-          " I seamlessly integrated FMOD Studio into the project, enhancing the game with adaptive audio, further immersing players in the game's atmosphere.",
-      },
-      {
-        name: "Visually Appealing UI:",
-        description:
-          "Utilizing Unity, I designed visually appealing and intuitive user interfaces for both the player menu and pause menu, enhancing the overall user experience.",
       },
     ],
   },

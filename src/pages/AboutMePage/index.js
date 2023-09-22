@@ -15,7 +15,7 @@ const StyledPage = styled.main`
   background-color: #232323;
   color: black;
   p {
-    margin: 5px 5em 5px;
+    margin: 10px 20% 5px;
     font-size: 20px;
   }
 `;
@@ -29,7 +29,7 @@ const StyledMobilePage = styled.main`
   background-color: #232323;
   color: black;
   p {
-    margin: 5px 3em 5px;
+    margin: 5px 20% 5px;
     font-size: 16px;
   }
 `;

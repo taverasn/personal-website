@@ -28,6 +28,11 @@ export const SideBarData = [
         path: "/portfolio/psyche",
         icon: <GiIcons.GiBrain />,
       },
+      {
+        title: "Anubis' Revenge",
+        path: "/portfolio/anubis-revenge",
+        icon: <GiIcons.GiMummyHead />,
+      },
     ],
   },
   {

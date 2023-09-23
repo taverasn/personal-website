@@ -3,7 +3,10 @@ import * as GiIcons from "react-icons/gi";
 export const PortfolioData = [
   {
     title: "Psyche",
+    duration: "September 2023 - Present",
+    role: "Tools/UI/Systems Programmer",
     path: "/portfolio/psyche",
+    skills: "Unity | C# | Jira | Confluence | Perforce | FMOD",
     projectLink:
       "https://drive.google.com/file/d/14MXza5Jd-wwj7SGr92g8MIhaop4PKpcU/view?usp=sharing",
     icon: <GiIcons.GiBrain />,
@@ -72,9 +75,12 @@ export const PortfolioData = [
   },
   {
     title: "Descender",
+    duration: "May 2023 - May 2023",
+    role: "Graphics Programmer",
     path: "/portfolio/descender",
+    skills: "C++ | Flecs | Jira | Github | OpenGL | Blender | Freetype",
     projectLink:
-      "https://drive.google.com/file/d/17I750SZUNdxje9Opov2K8D2j2N7KUwUJ/view?usp=sharing",
+      "https://drive.google.com/file/d/1oxzMREAeszZtxaEEQOaywoJkmjTzFz67/view?usp=drive_link",
     icon: <GiIcons.GiSpaceship />,
     description:
       "Descender is a modern reimagining of the classic arcade game that takes players on an exhilarating journey through space. In this action-packed adventure, you assume the role of a skilled spaceship pilot entrusted with the crucial mission of defending humanity against relentless alien invaders. Armed with a versatile spacecraft, you'll soar through the cosmos, engage in thrilling battles, deploy powerful bombs, and aim for the ultimate high score.",
@@ -131,8 +137,11 @@ export const PortfolioData = [
   },
   {
     title: "Thiefs Fortune",
+    duration: "August 2022 - November 2022",
+    role: "Lead/Gameplay/Systems Programmer",
     path: "/portfolio/thiefs-fortune",
-    projectLink: "https://github.com/taverasn/Thiefs-Fortune/tree/main",
+    skills: "Unity | C# | Trello | Github",
+    projectLink: "https://github.com/taverasn/AnubisRevenge/tree/main",
     icon: <GiIcons.GiPirateFlag />,
     description:
       "Thief's Fortune is an action-packed shooter and exploration game that thrusts players into the thrilling world of the Golden Age of Pirates. In this immersive gaming experience, you step into the worn boots of a down-on-his-luck sailor whose destiny takes a treacherous turn. Cursed by the Pirate Legend, you must embark on an epic journey to unravel the curse, find hidden treasures, and confront your ultimate nemesis.",
@@ -179,6 +188,62 @@ export const PortfolioData = [
         name: "Refinement",
         description:
           "Throughout the development process, I tirelessly iterated on game mechanics, ensuring that they were polished to perfection. This dedication resulted in a highly refined and engaging final product.",
+      },
+    ],
+  },
+  {
+    title: "Anubis' Revenge",
+    duration: "August 2022 - September 2022",
+    role: "Lead/UI/Gameplay Programmer",
+    path: "/portfolio/anubis-revenge",
+    skills: "Unity | C# | Trello | Github",
+    projectLink: "https://github.com/taverasn/AnubisRevenge/tree/main",
+    icon: <GiIcons.GiMummyHead />,
+    description:
+      "Anubis' Revenge is an exhilarating 2D action platformer that catapults players into an epic adventure. Set against a backdrop of challenging enemies and formidable bosses, your mission is to navigate treacherous levels and reach the end. This project represents a significant milestone as it marks the start of my game development journey in Unity. My contributions encompass a range of critical components, including the game's HUD, pause and end-game menus, player controller, and sound design.",
+    image1: "/Anubis_Images/anubis_main.png",
+    keyFeatures: [
+      {
+        name: "Action-Packed Platforming",
+        description:
+          "Dive headfirst into fast-paced platforming action. Traverse diverse levels filled with obstacles, enemies, and larger-than-life bosses. Your agility and reflexes will be your greatest assets.",
+      },
+      {
+        name: "Challenging Encounters",
+        description:
+          "Face off against a variety of adversaries and formidable bosses that will test your skills and wit. Each level presents a unique challenge, driving your determination to conquer the game.",
+      },
+      {
+        name: "Player-Centric Controls",
+        description:
+          "Experience a responsive and player-focused control system. Every movement and action are in your hands, offering precision and agency as you navigate the game world.",
+      },
+      {
+        name: "Immersive Soundscapes",
+        description:
+          "Immerse yourself in the game's atmosphere with a meticulously crafted sound design. From the thrilling music to the impactful sound effects, the auditory experience enhances your engagement.",
+      },
+    ],
+    contributions: [
+      {
+        name: "HUD Development",
+        description:
+          "I designed and implemented the game's Heads-Up Display (HUD), providing players with vital information at a glance. The HUD ensures players stay informed during intense gameplay, enhancing their overall experience.",
+      },
+      {
+        name: "Menu Systems",
+        description:
+          "I created user-friendly and intuitive menus for pausing the game, winning, and losing. These menus are essential for player interaction and serve as key components in the overall gameplay experience.",
+      },
+      {
+        name: "Player Controller",
+        description:
+          "I was responsible for crafting all aspects of the player controller, ensuring smooth and responsive character movement, jumping, and action mechanics. The player controller is the core of the game's interactivity and enjoyment.",
+      },
+      {
+        name: "Sound Manager Creation",
+        description:
+          "I designed and implemented a comprehensive sound manager responsible for efficiently handling references to all audio assets. This sound manager streamlined the integration of audio into the game, ensuring that sounds played at the right moments and under the appropriate circumstances.",
       },
     ],
   },

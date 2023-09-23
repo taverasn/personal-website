@@ -57,6 +57,12 @@ const StyledMobilePage = styled.main`
   }
 `;
 
+const StyledDiv = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+`;
+
 const ProjectPage = ({ item }) => {
   return (
     <>
@@ -69,6 +75,11 @@ const ProjectPage = ({ item }) => {
           <a href={item.projectLink} target="_blank">
             <p>Checkout The Project</p>
           </a>
+          <StyledDiv>
+            <p>{item.role}</p>
+            <p>{item.duration}</p>
+          </StyledDiv>
+          <p>{item.skills}</p>
           <hr />
           <img src={item.image1} alt="Main Project Photo" />
           <h2>Key Features</h2>
@@ -104,6 +115,11 @@ const ProjectPage = ({ item }) => {
           <a href={item.projectLink} target="_blank">
             <p>Checkout The Project</p>
           </a>
+          <div>
+            <p>{item.role}</p>
+            <p>{item.duration}</p>
+          </div>
+          <p>{item.skills}</p>
           <img src={item.image1} alt="Main Project Photo" />
           <h2>Key Features</h2>
           <hr />

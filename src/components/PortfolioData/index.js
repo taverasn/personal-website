@@ -8,7 +8,7 @@ export const PortfolioData = [
     path: "/portfolio/psyche",
     skills: "Unity | C# | Jira | Confluence | Perforce | FMOD",
     projectLink:
-      "https://drive.google.com/file/d/14MXza5Jd-wwj7SGr92g8MIhaop4PKpcU/view?usp=sharing",
+      "https://drive.google.com/file/d/1mkkOS9oaxftEUA3xvfr0FxtB0V4p9MoJ/view?usp=sharing",
     icon: <GiIcons.GiBrain />,
     description:
       "Psyche invites players into a dark and mysterious world, blending the elements of a Souls-like Action Role-Playing Game (ARPG) with an emotionally charged narrative. As the protagonist, you find yourself on an extraordinary quest: to journey deep into the psyche of your loved one, trapped in a coma. Along the way, you'll encounter epic boss battles, wield dynamic class-swapping abilities in combat, uncover hidden secrets, and immerse yourself in a captivating story.",

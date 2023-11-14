@@ -77,7 +77,6 @@ const Project = ({ item }) => {
           <Link to={item.path}>More Info</Link>
           <hr className="nav-wrapper yellow" />
           <img src={item.image1} alt="Main Project Photo" />
-          <p>{item.description}</p>
         </StyledDiv>
       </MediaQuery>
       <MediaQuery maxDeviceWidth={692}>
@@ -89,7 +88,6 @@ const Project = ({ item }) => {
           <Link to={item.path}>More Info</Link>
           <hr className="nav-wrapper yellow" />
           <img src={item.image1} alt="Main Project Photo" />
-          <p>{item.description}</p>
         </StyledMobileDiv>
       </MediaQuery>
     </>

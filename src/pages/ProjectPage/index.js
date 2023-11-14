@@ -82,17 +82,6 @@ const ProjectPage = ({ item }) => {
           <p>{item.skills}</p>
           <hr />
           <img src={item.image1} alt="Main Project Photo" />
-          <h2>Key Features</h2>
-          <hr />
-
-          {item.keyFeatures.map((item, idx) => {
-            return (
-              <div>
-                <h3>{item.name}</h3>
-                <p>{item.description}</p>
-              </div>
-            );
-          })}
           <h2>Contributions</h2>
           <hr />
 
@@ -121,17 +110,6 @@ const ProjectPage = ({ item }) => {
           </div>
           <p>{item.skills}</p>
           <img src={item.image1} alt="Main Project Photo" />
-          <h2>Key Features</h2>
-          <hr />
-
-          {item.keyFeatures.map((item, idx) => {
-            return (
-              <div>
-                <h3>{item.name}</h3>
-                <p>{item.description}</p>
-              </div>
-            );
-          })}
           <h2>Contributions</h2>
           <hr />
 

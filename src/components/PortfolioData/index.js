@@ -4,37 +4,13 @@ export const PortfolioData = [
   {
     title: "Psyche",
     duration: "September 2023 - Present",
-    role: "Tools/UI/Systems Programmer",
+    role: "UI/Systems Programmer",
     path: "/portfolio/psyche",
     skills: "Unity | C# | Jira | Confluence | Perforce | FMOD",
     projectLink:
       "https://drive.google.com/file/d/1mkkOS9oaxftEUA3xvfr0FxtB0V4p9MoJ/view?usp=sharing",
     icon: <GiIcons.GiBrain />,
-    description:
-      "Psyche invites players into a dark and mysterious world, blending the elements of a Souls-like Action Role-Playing Game (ARPG) with an emotionally charged narrative. As the protagonist, you find yourself on an extraordinary quest: to journey deep into the psyche of your loved one, trapped in a coma. Along the way, you'll encounter epic boss battles, wield dynamic class-swapping abilities in combat, uncover hidden secrets, and immerse yourself in a captivating story.",
     image1: "/Psyche_Images/psyche_gameplay.png",
-    keyFeatures: [
-      {
-        name: "Epic Boss Fights",
-        description:
-          "Confront formidable adversaries in epic boss battles that will test your skills, strategy, and determination. Each boss encounter is a unique and intense challenge.",
-      },
-      {
-        name: "Dynamic Class Swaps",
-        description:
-          "Adapt to any situation with the ability to dynamically swap character classes during combat. Customize your playstyle on the fly and discover new strategies to overcome your foes.",
-      },
-      {
-        name: "Mysteries Await",
-        description:
-          "Explore the psyche's depths to uncover secret passages and hidden mysteries. Unearth the truth about your loved one's condition and confront the enigmatic forces that bind you.",
-      },
-      {
-        name: "Immersive Storytelling",
-        description:
-          "Immerse yourself in a deeply emotional narrative as you navigate the complexities of the human mind. The game's storytelling will keep you engaged from start to finish.",
-      },
-    ],
     contributions: [
       {
         name: "Robust Save and Load System",
@@ -82,31 +58,7 @@ export const PortfolioData = [
     projectLink:
       "https://drive.google.com/file/d/1oxzMREAeszZtxaEEQOaywoJkmjTzFz67/view?usp=drive_link",
     icon: <GiIcons.GiSpaceship />,
-    description:
-      "Descender is a modern reimagining of the classic arcade game that takes players on an exhilarating journey through space. In this action-packed adventure, you assume the role of a skilled spaceship pilot entrusted with the crucial mission of defending humanity against relentless alien invaders. Armed with a versatile spacecraft, you'll soar through the cosmos, engage in thrilling battles, deploy powerful bombs, and aim for the ultimate high score.",
     image1: "/Descender_Images/descender_gameplay.png",
-    keyFeatures: [
-      {
-        name: "Intense Space Battles",
-        description:
-          "Face off against waves of extraterrestrial adversaries in a pulse-pounding battle for survival. Your spaceship is humanity's last line of defense, and your skills will determine the fate of the human race.",
-      },
-      {
-        name: "Freedom to Explore",
-        description:
-          "Enjoy the freedom of unrestricted flight as you navigate through a dynamic game world. Soar through space, dodge enemy fire, and strategically engage alien threats.",
-      },
-      {
-        name: "Explosive Arsenal",
-        description:
-          "Unleash devastating bombs to decimate your foes and clear the path to victory. Choose your moments wisely and watch the screen explode in a symphony of destruction.",
-      },
-      {
-        name: "Dynamic Patrol and Tracking",
-        description:
-          "Watch as enemies showcase a range of patrol and tracking patterns. Some foes may pursue you relentlessly, while others exhibit erratic movements, requiring strategic thinking and adaptability to survive.",
-      },
-    ],
     contributions: [
       {
         name: "Enhanced Visual Experience",
@@ -143,26 +95,7 @@ export const PortfolioData = [
     skills: "Unity | C# | Trello | Github",
     projectLink: "https://github.com/taverasn/AnubisRevenge/tree/main",
     icon: <GiIcons.GiPirateFlag />,
-    description:
-      "Thief's Fortune is an action-packed shooter and exploration game that thrusts players into the thrilling world of the Golden Age of Pirates. In this immersive gaming experience, you step into the worn boots of a down-on-his-luck sailor whose destiny takes a treacherous turn. Cursed by the Pirate Legend, you must embark on an epic journey to unravel the curse, find hidden treasures, and confront your ultimate nemesis.",
     image1: "/ThiefsFortune_Promo/Shop.png",
-    keyFeatures: [
-      {
-        name: "Action-Packed Gameplay",
-        description:
-          "Engage in heart-pounding battles as you combat hordes of formidable enemies. Use your wits, weapons, and tactics to overcome challenging foes in epic showdowns.",
-      },
-      {
-        name: "High-Seas Adventure",
-        description:
-          "Take command of your own vessel and set sail across the vast and mysterious seas. Navigate through treacherous waters, explore hidden islands, and seek out coveted pirate loot.",
-      },
-      {
-        name: "Cursed Quest",
-        description:
-          "Embark on a gripping quest filled with twists and turns. Uncover the dark secrets of the Pirate Legend's curse and forge your own path to redemption.",
-      },
-    ],
     contributions: [
       {
         name: "AI",
@@ -199,31 +132,7 @@ export const PortfolioData = [
     skills: "Unity | C# | Trello | Github",
     projectLink: "https://github.com/taverasn/AnubisRevenge/tree/main",
     icon: <GiIcons.GiMummyHead />,
-    description:
-      "Anubis' Revenge is an exhilarating 2D action platformer that catapults players into an epic adventure. Set against a backdrop of challenging enemies and formidable bosses, your mission is to navigate treacherous levels and reach the end. This project represents a significant milestone as it marks the start of my game development journey in Unity. My contributions encompass a range of critical components, including the game's HUD, pause and end-game menus, player controller, and sound design.",
     image1: "/Anubis_Images/anubis_main.png",
-    keyFeatures: [
-      {
-        name: "Action-Packed Platforming",
-        description:
-          "Dive headfirst into fast-paced platforming action. Traverse diverse levels filled with obstacles, enemies, and larger-than-life bosses. Your agility and reflexes will be your greatest assets.",
-      },
-      {
-        name: "Challenging Encounters",
-        description:
-          "Face off against a variety of adversaries and formidable bosses that will test your skills and wit. Each level presents a unique challenge, driving your determination to conquer the game.",
-      },
-      {
-        name: "Player-Centric Controls",
-        description:
-          "Experience a responsive and player-focused control system. Every movement and action are in your hands, offering precision and agency as you navigate the game world.",
-      },
-      {
-        name: "Immersive Soundscapes",
-        description:
-          "Immerse yourself in the game's atmosphere with a meticulously crafted sound design. From the thrilling music to the impactful sound effects, the auditory experience enhances your engagement.",
-      },
-    ],
     contributions: [
       {
         name: "HUD Development",

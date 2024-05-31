@@ -1,5 +1,5 @@
 // Styling Imports
-import styled from 'styled-components';
+import styled from "styled-components";
 
 // Component Imports
 
@@ -10,18 +10,23 @@ const StyledPage = styled.main`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #232323;
-  h1 {
-      color: black;
+  color: yellow;
+  p {
+    margin: 5px 10% 5px;
+    text-align: center;
   }
 `;
 
 const HomePage = (props) => {
-    return (
-        <StyledPage>
-          <h1>HomePage</h1>
-        </StyledPage>
-    )
-}
+  return (
+    <StyledPage>
+      <h2>Ready to Elevate Your Game?</h2>
+      <p>
+        With a strong foundation in game development and a passion for creating
+        immersive worlds, I'm ready to bring your gaming vision to life.
+      </p>
+    </StyledPage>
+  );
+};
 
 export default HomePage;

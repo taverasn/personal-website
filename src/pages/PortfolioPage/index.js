@@ -42,9 +42,10 @@ const StyledCard = styled.div`
     padding: 5px;
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
   .cardRegion {
-    width: 50%;
+    width: 100%;
     padding: 5px;
   }
 
@@ -70,8 +71,8 @@ const StyledCard = styled.div`
   }
 
   .quote {
-    border-top: 1px solid #444;
-    padding-top: 10px;
+    //border-top: 1px solid #444;
+    //padding-top: 10px;
     margin-top: 10px;
     font-size: 16px;
   }
@@ -82,9 +83,9 @@ const PortfolioPage = (props) => {
     <StyledPage>
       <StyledCard>
         <div className="card">
-          <div className="cardRegion">
+          {/* <div className="cardRegion">
             <Image fluid src="/Psyche_Images/psyche_gameplay.png" />
-          </div>
+          </div> */}
           <div className="cardRegion">
             <h1>Nicholas Taveras</h1>
             <h2>Game Developer</h2>

@@ -6,7 +6,7 @@ export const ProfessionalProjectData = [
     role: "Lead Game Developer",
     duration: "January 2024 - June 2024",
     project: "Idle Club Empire: Tap to Win!",
-    service: "PlayStore and AppStore",
+    service: "PlayStore",
     description:
       "Idle Clicker where you manage a nightclub, hire staff, and expand your empire!",
     responsibilities:

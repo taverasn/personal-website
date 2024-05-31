@@ -31,7 +31,7 @@ const Header = (props) => {
         <ul>
           <div>
             <li>
-              <Link to="/">Nicholas Taveras</Link>
+              <Link to="/">Nick</Link>
             </li>
           </div>
           <div>
@@ -39,10 +39,13 @@ const Header = (props) => {
               <Link to="/aboutme">About Me</Link>
             </li>
             <li>
-              <Link to="/contact">Contact Info</Link>
-            </li>
-            <li>
-              <Link to="/portfolio">Portfolio</Link>
+              <a
+                href="/pdf/Taveras,Nicholas_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
             </li>
           </div>
         </ul>

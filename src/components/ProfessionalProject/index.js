@@ -13,6 +13,7 @@ const StyledComponent = styled.div`
     border-radius: 8px;
     overflow: hidden; /* Hide the overflow */
     display: inline-block; /* Make the container inline-block */
+    height: 15rem;
   }
 
   .image-container img {
@@ -41,9 +42,16 @@ const StyledComponent = styled.div`
   .image-container:hover::after {
     opacity: 1;
   }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
-const Project = ({ item }) => {
+const ProfessionalProject = ({ item }) => {
   return (
     <StyledComponent>
       <MediaQuery minDeviceWidth={693}>
@@ -52,15 +60,15 @@ const Project = ({ item }) => {
           bg="dark"
           key="Dark"
           text="white"
-          style={{ width: "29.5em" }}
+          style={{ width: "29.5rem" }}
         >
           <Card.Link href={item.path}>
-            <div className="image-container">
-              <Card.Img variant="top" src={item.image1} />
+            <div className="image-container center">
+              <Card.Img variant="top" src={item.image} />
             </div>
           </Card.Link>
           <Card.Body>
-            <Card.Title>{item.title}</Card.Title>
+            <Card.Title>{item.project}</Card.Title>
             <Card.Subtitle>Role: {item.role}</Card.Subtitle>
           </Card.Body>
           <Card.Footer>{item.description}</Card.Footer>
@@ -69,7 +77,7 @@ const Project = ({ item }) => {
       <MediaQuery maxDeviceWidth={692}>
         <Card bg="dark" key="Dark" style={{ width: "18rem" }}>
           <Card.Link href={item.path}>
-            <Card.Img variant="top" src={item.image1} />
+            <Card.Img variant="top" src={item.image} />
           </Card.Link>
           <Card.Body>
             <Card.Title>{item.title}</Card.Title>
@@ -82,4 +90,4 @@ const Project = ({ item }) => {
   );
 };
 
-export default Project;
+export default ProfessionalProject;

@@ -4,6 +4,7 @@ import MediaQuery from "react-responsive";
 
 // Component Imports
 import AboutMeData from "../../components/AboutMeData";
+import { Image } from "react-bootstrap";
 
 // Styled Components
 const StyledPage = styled.main`
@@ -20,7 +21,7 @@ const StyledPage = styled.main`
 
   .circle {
     margin-top: 10px;
-    width: 167px;
+    width: 168px;
     height: 200px;
     background-color: yellow;
     border-radius: 50%;
@@ -50,7 +51,7 @@ const StyledMobilePage = styled.main`
   .circle {
     margin-top: 10px;
 
-    width: 168px;
+    width: 166px;
     height: 200px;
     background-color: yellow;
     border-radius: 50%;
@@ -72,7 +73,7 @@ const AboutMePage = (props) => {
       <MediaQuery minDeviceWidth={693}>
         <StyledPage>
           <div class="circle">
-            <img src="/profile_Images/portfolioPic.png" alt="Centered Image" />
+            <Image src="/profile_Images/portfolioPic.png" roundedCircle />
           </div>
           <AboutMeData />
         </StyledPage>
@@ -80,7 +81,7 @@ const AboutMePage = (props) => {
       <MediaQuery maxDeviceWidth={692}>
         <StyledMobilePage>
           <div class="circle">
-            <img src="/profile_Images/portfolioPic.png" alt="Centered Image" />
+            <Image src="/profile_Images/portfolioPic.png" roundedCircle />
           </div>
           <AboutMeData />
         </StyledMobilePage>

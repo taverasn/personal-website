@@ -24,7 +24,7 @@ const AboutMeData = (props) => {
       </p>
       <p>
         I'm also in the final stretch of my Bachelor's in Game Development, a
-        journey that began in June 2021 and will culminate in December 2023.
+        journey that began in June 2021 and finished in December 2023.
         Throughout my academic career, I've had the privilege of working on a
         wide range of projects, both solo and in collaboration with talented
         peers. In group settings, I often took on leadership roles, leveraging
@@ -36,12 +36,12 @@ const AboutMeData = (props) => {
       </p>
       <p>
         My project portfolio reflects my versatility and dedication. Whether
-        it's crafting websites, developing Windows applications, or creating
-        immersive games, I thrive on bringing creative visions to life through
-        code. Currently, I'm actively seeking an exciting role in Game
-        Development. I'm enthusiastic about collaborating with like-minded
-        professionals, pushing the boundaries of what's possible in the gaming
-        industry, and contributing my skills and passion to innovative projects.
+        it's crafting websites such as this one and creating immersive games, I
+        thrive on bringing creative visions to life through code. Currently, I'm
+        actively seeking an exciting role in Game Development. I'm enthusiastic
+        about collaborating with like-minded professionals, pushing the
+        boundaries of what's possible in the gaming industry, and contributing
+        my skills and passion to innovative projects.
       </p>
     </main>
   );

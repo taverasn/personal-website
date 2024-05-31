@@ -26,6 +26,6 @@ export const ProfessionalProjectData = [
     projectLink:
       "https://play.google.com/store/apps/details?id=com.Queen3Games.IdleClubTycoon",
     icon: <GiIcons.GiBrain />,
-    image: "/Psyche_Images/psyche_gameplay.png",
+    image: "/IdleClub_Images/idleclub_gameplay.png",
   },
 ];

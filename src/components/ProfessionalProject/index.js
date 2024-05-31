@@ -13,6 +13,7 @@ const StyledComponent = styled.div`
     border-radius: 8px;
     overflow: hidden; /* Hide the overflow */
     display: inline-block; /* Make the container inline-block */
+    height: 15rem;
   }
 
   .image-container img {
@@ -41,6 +42,13 @@ const StyledComponent = styled.div`
   .image-container:hover::after {
     opacity: 1;
   }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const ProfessionalProject = ({ item }) => {
@@ -55,7 +63,7 @@ const ProfessionalProject = ({ item }) => {
           style={{ width: "29.5rem" }}
         >
           <Card.Link href={item.path}>
-            <div className="image-container">
+            <div className="image-container center">
               <Card.Img variant="top" src={item.image} />
             </div>
           </Card.Link>

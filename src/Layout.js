@@ -7,11 +7,9 @@ import MediaQuery from "react-responsive";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SideBar from "./components/SideBar";
-import { PortfolioData } from "./components/PortfolioData";
+import { PersonalProjectData } from "./components/PersonalProjectData";
 
 // page imports
-import HomePage from "./pages/HomePage";
-import ContactPage from "./pages/ContactPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import AboutMePage from "./pages/AboutMePage";
 import ProjectPage from "./pages/ProjectPage";
@@ -19,6 +17,8 @@ import background from "./img/background.jpg";
 // React Imports
 import { Route, Switch, Redirect, withRouter } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { ProfessionalProjectData } from "./components/ProfessionalProjectData";
+import ProfessionalProjectPage from "./pages/ProfessionalProjectPage";
 
 // Styled Component
 const StyledLayout = styled.div`
@@ -41,24 +41,36 @@ function Layout() {
       </MediaQuery>
       <main style={{ backgroundImage: `url(${background})` }}>
         <Switch>
-          <Route exact path="/" render={(props) => <HomePage {...props} />} />
           <Route
             exact
-            path="/contact"
-            render={(props) => <ContactPage {...props} />}
-          />
-          <Route
-            exact
-            path="/portfolio"
+            path="/"
             render={(props) => <PortfolioPage {...props} />}
           />
-          {PortfolioData.map((item, idx) => {
+          <Route
+            exact
+            path="/pdf/Taveras,Nicholas_Resume.pdf"
+            render={(props) => <PortfolioPage {...props} />}
+          />
+          {PersonalProjectData.map((item, idx) => {
             return (
               <Route
                 exact
                 path={item.path}
+                key={idx}
                 render={(props) => (
                   <ProjectPage item={item} key={idx} {...props} />
+                )}
+              />
+            );
+          })}
+          {ProfessionalProjectData.map((item, idx) => {
+            return (
+              <Route
+                exact
+                path={item.path}
+                key={idx}
+                render={(props) => (
+                  <ProfessionalProjectPage item={item} key={idx} {...props} />
                 )}
               />
             );

@@ -29,7 +29,7 @@ const Footer = (props) => {
   return (
     <StyledFooter className="yellow">
       <section>
-        <a href="https://www.linkedin.com/in/taverasn" target="_blank">
+        <a href="https://www.linkedin.com/in/nicholastaveras/" target="_blank">
           <i className="fab fa-linkedin"></i>
         </a>
         <a href="https://www.github.com/taverasn" target="_blank">

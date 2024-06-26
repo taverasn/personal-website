@@ -23,20 +23,19 @@ const AboutMeData = (props) => {
         angles.
       </p>
       <p>
-        I'm also in the final stretch of my Bachelor's in Game Development, a
-        journey that began in June 2021 and finished in December 2023.
-        Throughout my academic career, I've had the privilege of working on a
-        wide range of projects, both solo and in collaboration with talented
-        peers. In group settings, I often took on leadership roles, leveraging
-        my skills to guide and inspire my teammates. I'm proud of my ability to
-        review and optimize code, as well as my knack for tackling challenges
-        with minimal guidance. Constructive criticism has been a vital part of
-        my growth, and I eagerly embrace opportunities for learning and
-        improvement.
+        I've also graduated with a Bachelor's in Game Development, a journey
+        that began in June 2021 and finished in December 2023. Throughout my
+        academic career, I've had the privilege of working on a wide range of
+        projects, both solo and in collaboration with talented peers. In group
+        settings, I often took on leadership roles, leveraging my skills to
+        guide and inspire my teammates. I'm proud of my ability to review and
+        optimize code, as well as my knack for tackling challenges with minimal
+        guidance. Constructive criticism has been a vital part of my growth, and
+        I eagerly embrace opportunities for learning and improvement.
       </p>
       <p>
         My project portfolio reflects my versatility and dedication. Whether
-        it's crafting websites such as this one and creating immersive games, I
+        it's crafting websites such as this one or creating immersive games, I
         thrive on bringing creative visions to life through code. Currently, I'm
         actively seeking an exciting role in Game Development. I'm enthusiastic
         about collaborating with like-minded professionals, pushing the
